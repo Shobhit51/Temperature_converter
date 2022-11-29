@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: rgb(243, 107, 107);
+}
+
+
+.conty {
+    height: 15rem;
+    background-color: floralwhite;
+    padding: 70px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 10px 20px 50px rgba(0, 0, 0, 1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.conty .container {
+    width: 45%;
+    background-color: #fff;
+}
+
+
+input {
+    height: 3rem;
+    border-radius: 0px;
+    margin-top: 8px;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+input:focus {
+    border-color: blue;
+}
